@@ -59,3 +59,28 @@ span{
   color: aliceblue;
   font-size: 50px;
 }
+
+.boton{
+   width: 80px;
+   height: 40px;
+   background-color: blueviolet;
+   color: aliceblue;
+   border: 2px solid brown;
+   border-radius: 15px;
+   background-position: centerS;
+}
+
+.barra {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+.item {
+   flex: 1 1 200px;
+   margin: 10px;
+   background-color: #2196F3;
+   color: white;
+   padding: 20px;
+}
