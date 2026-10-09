@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Share+Tech&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Share Tech", sans-serif;
+}
+
+body{
+   font-family: "Share Tech",sans-serif;
+   background-color: rgb(43, 40, 40);
+   color: rgb(0, 0, 0);
+}
+
+h2{
+   color:rgb(0, 0, 0);
+   font-size: 28px;
+}
+
+span{
+   color: aqua;
+   font-size: 28px;
+}
+
+
+#banner {
+   background-image: url(twitter-background.jpg);
+   padding: 20px;
+   text-align: center;
+   border: 1px solid rgb(236, 221, 12);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.visto {
+   background-color: rgb(231, 10, 10);
+   padding: 20px;
+   text-align: center;
+   border: 1px solid rgb(236, 221, 12);
+   margin: 10px auto;
+   width: 80%;
+
+}
+
+.vistoshijo{
+   background-color: blue;
+   margin: 10px auto;
+   width: 50%;
+   border: 1px solid white;
+   border-radius: 10px;
+}
+
+.parrafo{
+  font-family: "Libre Barcode 128 Text", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 50px;
+}
